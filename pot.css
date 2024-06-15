@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #042738;
+    height:20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px ;
+    box-shadow: 2px 3px 5px  black;
+
+}
+.nav-logo {
+    height: 60px;
+    width: 40px;
+    color: red;
+    /* margin-left: 150px; */
+   /* display: inline; */
+   /* margin: 5px; */
+   padding: 10px 100px ;
+}
+
+.pl ul{
+    display: flex;
+    list-style: none;
+}
+.pl ul li a{
+    padding: 30px ;
+    /* list-style: none; */
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.pl ul a:hover{
+    color: yellow;
+}
+.photo{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+    /* border: 2px solid black; */
+    height: 50px;
+    margin-top: 50px;
+    background-position-x: center;
+    background-position-y:center ;
+}
+/* header{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+} */
+.main{
+    height: 300px;
+    width: 100%;
+    
+    background-color: #042738;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid red;
+    border-radius: 50%;
+   background-image: url("yash3.jpg");
+   background-size: cover;
+   object-fit: cover;
+}
+.work{
+    font-size: small;
+}
+.nameu{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    height: 22px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.sosal a{
+ padding: 10px;
+ margin: auto;
+ color: white;
+}
+button{
+    margin-top:10px ;
+ background-color: red; 
+ border-radius: 150px; 
+ border: none;
+ height: 40px;
+ width:100px ;
+ color: white;
+ font-family:Arial, Helvetica, sans-serif ;
+ font-weight: bold;
+}
+.sosal{
+    margin-top: 5px;
+}
+.nam{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    /* height: 60px; */
+    padding: 20px 10px;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-size: cover;
+    background-image: url("yash3.jpg");
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.my {
+    padding: 40px 150px;
+    height: 100px;
+  
+}
+.data{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+}
+.msg{
+    background-color: white;
+    color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 50px;
+     box-shadow: 2px 3px 5px gray;
+          
+
+}
+.hel{
+    padding: 10px;
+    height: 100px;
+    width: 520px;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+/* .ji{
+    border: 2px solid black;
+    height: 5px;
+    width: 10px;
+    background-color: red;
+} */
+.skill{
+    /* border: 2px solid red; */
+    height: 5px;
+    width: 300px;
+    background-image: linear-gradient(to right, red , yellow);
+    margin: 5px;
+}
+.hel p{
+  font-size: 0.65rem;
+}
+.head{
+    
+    
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+.head h3{
+    font-weight: bold;
+   
+    padding-top: 20px;
+    
+}
+.ser{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    
+    
+}
+.box1{
+    height: 170px;
+    width: 26%;
+    
+    margin-bottom: 5px;
+    background-color: blueviolet;
+    border-radius: 5px;
+   
+}
+.box2{
+    height: 170px;
+    width: 26%;
+    
+    background-color: #d3d31e;
+    border-radius: 5px;
+   
+}
+.box3{
+    height: 170px;
+    width: 26%;
+    
+    background-color: red;
+    border-radius: 5px;
+   
+}
+.icon i{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.box-ser a{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.icon-1 i{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.box2-ser a{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.icon-3 i{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.box3-ser a{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.helo{
+    
+    
+     margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 10px; 
+     padding:2px ;
+
+    /* justify-content: space-evenly; */
+    /* border: 2px solid red; */
+}
+    
+
+.helo h3{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.box-1{
+    height: 170px;
+    width: 26%;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 5px;
+   box-shadow:2px 3px 5px black;
+}
+.box2-0{
+    height: 170px;
+    width: 26%;
+    box-shadow: black 2px 3px 5px;
+    background-color: white;
+    border-radius: 5px;
+   
+}
+.box3-0{
+    height: 170px;
+    width: 26%;
+    box-shadow: 2px 3px 5px black;
+    background-color: white;
+    border-radius: 5px;
+   
+}
+.sir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;  
+}
+.box0-ser p{
+  padding: 6px;
+}
+.box20-ser p {
+ padding: 6px;
+}
+.box-sit p{
+  padding: 6px;
+}
+footer{
+    color: white;
+    font-weight: bold;
+    background-color: #042738;
+    padding: 20px 20px;
+    margin: 20px;
+}
+div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
